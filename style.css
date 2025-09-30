@@ -9,6 +9,12 @@
     outline: auto;
 }
 
+.hero-bat {
+     display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+}
 
 
 
@@ -158,4 +164,5 @@ position: absolute;
         width: 500px;
     text-align: center;
     list-style: none;
+
 }
