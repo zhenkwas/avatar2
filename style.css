@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1045px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: auto;
+}
+
+
+
+
+
+.head-list {
+padding: 10px;
+  margin: 0;
+  list-style: none;
+
+
+  /*  Making ul.menu a Flex container  */
+ 
+display: flex;
+flex-direction: row;
+gap: 10px;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.head-list img {
+width: 186px;
+height: 72px;
+}
+
+button {
+    height: 42px;
+    width: 141px;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border: 2px solid #26C7EA;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.img-nav {
+width: 36px;
+height: 20px;
+}
+
+header {
+    background-image: linear-gradient(0deg, rgba(43, 74, 97, 0.87)), url(/images/baground3.png);
+    min-height: 150px;
+}
+
+.header a {
+    color: #ffffff;
+}
+
+.hero {
+     background: url(./images/baground1.png);
+    background-color: aqua;
+    height: 740px;
+}
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.hero p {
+    color: #ffffff;
+
+    
+}
+
+
+
+.language .text {
+    max-width: 1033px;
+    width: 100%;
+    flex-wrap: wrap;
+ 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 36px;
+    row-gap: 24px;
+}
+
+.language {
+       background: url(images/baground2.png);
+       min-height: 704px;
+
+}
+.language .container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+
+}
+
+.foto {
+     height: 741px;
+}
+
+.language h3 {
+    width: 500px;
+    text-align: center;
+}
+
+.language .text>li {
+flex-basis: calc((100%-72px)/3);
+height: 240px;
+
+width: 320px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    background-image: linear-gradient(0deg, rgba(43, 74, 97, 0.87)), url(images/baground3.png);
+    color: #ffffff;
+    background-size: cover;
+    height: 233px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-logo {
+ width: 183px;
+ height: 70px;
+outline: 2px solid red;
+position: absolute;
+}
+
+.coperation {
+    text-align: center;
+}
+
+
+.history .About {
+        width: 500px;
+    text-align: center;
+    list-style: none;
+}
